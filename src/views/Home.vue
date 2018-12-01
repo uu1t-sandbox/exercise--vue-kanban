@@ -1,16 +1,11 @@
 <template>
   <div class="home">
-    <KbnLoginView :onlogin="() => {}"/>
+    <img alt="Vue logo" src="../assets/logo.png">
   </div>
 </template>
 
 <script>
-import KbnLoginView from '@/components/templates/KbnLoginView.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    KbnLoginView
-  }
+  name: 'Home'
 }
 </script>
