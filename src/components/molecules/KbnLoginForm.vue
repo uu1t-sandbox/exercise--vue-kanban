@@ -120,7 +120,7 @@ label {
 }
 
 input {
-  width: 100px;
+  width: 100%;
   padding: 0.5em;
   font: inherit;
 }
