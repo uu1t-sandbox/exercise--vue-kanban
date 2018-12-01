@@ -1,11 +1,7 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <RouterLink to="/">Home</RouterLink> |
-      <RouterLink to="/about">About</RouterLink>
-    </div>
+  <ErrorBoundary id="app">
     <RouterView/>
-  </div>
+  </ErrorBoundary>
 </template>
 
 <style>
